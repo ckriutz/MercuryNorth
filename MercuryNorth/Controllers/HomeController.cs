@@ -12,6 +12,7 @@ namespace MercuryNorth.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            ViewBag.Title = "Home";
             ViewBag.Machine = Environment.MachineName;
             ViewBag.FoundingYear = _random.Next(1940, 1991);
             return View();
