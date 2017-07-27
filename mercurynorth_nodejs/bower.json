@@ -1,0 +1,20 @@
+{
+  "name": "mercurynorth",
+  "description": "A simple node project for demos and experiments.",
+  "main": "app.js",
+  "authors": [
+    "ckriutz <casey.kriutzfield@live.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ckriutz/MercuryNorth",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

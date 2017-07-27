@@ -1,0 +1,21 @@
+{
+
+  "name": "mercurynorth",
+
+  "version": "1.0.0",
+
+  "description": "A simple node project for demos and experiments.",
+
+  "main": "app.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+
+  "author": "",
+
+  "license": "ISC"
+
+}
