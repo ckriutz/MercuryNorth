@@ -1,7 +1,5 @@
 # MercuryNorth
-A simple asp.net mvc project for demos and experiments.
-
-The idea being this landing page can be used to demo a simple website for deployments, experiments, etc.
+A simple web project for demos and experiments done in both asp.net, and node.js so that they can be deployed in differnet situations and environments. There is not a lot of complexity in these sites so there is very little required to get them up and running.
 
 Originally, the design for the site came from:
  Start Bootstrap - Landing Page (http://startbootstrap.com/)
@@ -9,11 +7,3 @@ Originally, the design for the site came from:
  Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
 
 ...however many changes have been made to the application since then to reflect the nature of the site.
-
-In order to add to the experimental nature of the application I plan to add:
-
-* A REST Endpoint.
-* Data that is retrieved from a data store such as a Database, JSON file, Redis, or DocumentDB.
-* A Form that can be filled out and the data stored.
-
-...this way we can take advantage of watching those items as part of a container, microservice, or load balanced, etc.
