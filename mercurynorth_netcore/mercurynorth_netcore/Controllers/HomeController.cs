@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using mercurynorth_netcore.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace mercurynorth_netcore.Controllers
 {
@@ -17,6 +20,7 @@ namespace mercurynorth_netcore.Controllers
             ViewBag.Title = "Home";
             ViewBag.Machine = Environment.MachineName;
             ViewBag.FoundingYear = _random.Next(1940, 1991);
+
             return View();
         }
 
