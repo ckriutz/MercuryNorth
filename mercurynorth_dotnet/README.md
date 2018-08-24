@@ -3,11 +3,11 @@ A simple asp.net mvc project for demos and experiments.
 
 The idea being this simple landing page can be used to demo a simple website for deployments, experiments, and other related tasks.
 
-By itself, the site should build without any problems. There is not any use of NPM or Bower, as all 3rd party components is being retrieved from NuGet. Deployment should be simple depending on your Modus operandi.
+By itself, the site should build without any problems. There isn't any use of NPM or Bower, as all 3rd party components are being retrieved from NuGet. Deployment should be simple depending on your Modus operandi.
 
 The site is targeted to use .net framework 4.6.2.
 
-There is not a lot of c# code invovled with the application, just enough to randomly display a date, as well as the machine name.
+There isn't not a lot of c# code invovled with the application, just enough to randomly display a date, as well as the machine name.
 
 ### Running on Docker
 Included in Source is a Dockerfile for complete end-to-end building of the container. There is no need for Visual Studio to build and deploy the code into the container, as the Dockerfile is configured to do this for you.
