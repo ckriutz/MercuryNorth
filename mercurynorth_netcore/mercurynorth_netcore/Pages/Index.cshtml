@@ -13,9 +13,9 @@
                     <h1>Mercury North</h1>
                     <h3>Proof of Concept</h3>
                     <!-- For any type of deployments, lets show the machine name for info. -->
-                    <h5>@ViewBag.Machine</h5>
+                    <h5>@Environment.MachineName</h5>
                     <hr class="intro-divider">
-                    <h4>Doing all our science from scratch since @ViewBag.FoundingYear</h4>
+                    <h4>Doing all our science from scratch since @ViewData["FoundingYear"]</h4>
                 </div>
             </div>
         </div>

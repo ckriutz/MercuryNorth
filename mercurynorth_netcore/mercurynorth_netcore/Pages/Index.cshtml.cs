@@ -9,9 +9,10 @@ namespace mercurynorth_netcore.Pages
 {
     public class IndexModel : PageModel
     {
+        Random _random = new Random();
         public void OnGet()
         {
-
+            ViewData["FoundingYear"] = _random.Next(1940, 1991);
         }
     }
 }
