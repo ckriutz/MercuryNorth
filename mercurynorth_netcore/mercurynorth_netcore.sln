@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28705.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mercurynorth_netcore", "mercurynorth_netcore\mercurynorth_netcore.csproj", "{94EA73EF-070B-4525-A2AD-09A7B85D2425}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mercurynorth_netcore", "mercurynorth_netcore\mercurynorth_netcore.csproj", "{A3226E16-021A-4C15-A0E4-7A61C3BBAAAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{94EA73EF-070B-4525-A2AD-09A7B85D2425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94EA73EF-070B-4525-A2AD-09A7B85D2425}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94EA73EF-070B-4525-A2AD-09A7B85D2425}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94EA73EF-070B-4525-A2AD-09A7B85D2425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3226E16-021A-4C15-A0E4-7A61C3BBAAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3226E16-021A-4C15-A0E4-7A61C3BBAAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3226E16-021A-4C15-A0E4-7A61C3BBAAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3226E16-021A-4C15-A0E4-7A61C3BBAAAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E9AF5785-E861-44F2-AF95-6CBDD61264AF}
+		SolutionGuid = {6BDB9105-12AB-4ADE-99CC-0C82001F4D3B}
 	EndGlobalSection
 EndGlobal
