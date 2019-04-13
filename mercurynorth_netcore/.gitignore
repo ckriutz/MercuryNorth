@@ -33,3 +33,6 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# Kubernetes things we don't need.
+.kube/
